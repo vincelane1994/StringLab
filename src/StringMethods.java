@@ -96,6 +96,7 @@ public class StringMethods {
 			System.out.println(letter);
 			i++;
 		}
+		//System.out.println("");
 	}
 	
 	public static String camelCase(String word2) {
@@ -123,6 +124,6 @@ public class StringMethods {
 			i= word2.indexOf(' ');
 			//i = -1;
 		}
-		return secondWord;
+		return word2;
 	}
 }
